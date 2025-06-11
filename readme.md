@@ -19,9 +19,9 @@ python client.py
 
 
 Open the test.html file in a web browser.
-You can use it to test the EventBus functionality.
-if you subscribe to file.upload, you will see when a file is moved to watched_folder.
-if you subscribe to audio.transcript, you will see when a transcription is generated.
+You can use it to test the EventBus functionality. By subscribing to topics and publishing to them.
+If you subscribe to file.upload, you will see when a file is moved to watched_folder.
+If you subscribe to audio.transcript, you will see when a transcription is generated.
 
 For a simple test just move the person-test.flac file into the watched_folder.
 Or you can manually publish a message via the browser on the topic file.upload
